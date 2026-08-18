@@ -1,0 +1,58 @@
+{
+  "schema_version": 2,
+  "run_name": "clothing_reviews",
+  "input_csv": "/Users/lvagliano/repos/HICode-Alternative/data/clothing_reviews.csv",
+  "input_sha256": "9ed2bc85660c73d095d4b423ce44ec57587c21dc559fe4c8177d4db12a5eda1e",
+  "source_schema": [
+    "",
+    "Clothing ID",
+    "Age",
+    "Title",
+    "Review_Text",
+    "Rating",
+    "Recommended IND",
+    "Positive Feedback Count",
+    "Division Name",
+    "Department Name",
+    "Class Name"
+  ],
+  "text_column": "Review_Text",
+  "prompt_profile": {
+    "name": "clothing-review-customer-experience",
+    "background": "This corpus contains customer reviews of clothing products, including comments about garment fit, sizing, appearance, materials, construction, comfort, use, value, and the online shopping experience.",
+    "research_question": "What recurring customer experiences, product attributes, and sources of satisfaction or dissatisfaction shape how shoppers evaluate clothing purchases.",
+    "generation_instructions": [
+      "Label the input only when it is HIGHLY RELEVANT and USEFUL for the stated goal."
+    ],
+    "clustering_instructions": {
+      "level_1": [
+        "Synthesize similar inductively generated labels into meaningful and insightful themes for the stated goal."
+      ],
+      "intermediate": [
+        "Synthesize similar inductively generated labels into meaningful and insightful themes for the stated goal."
+      ],
+      "later": [
+        "Synthesize similar inductively generated labels into meaningful and insightful themes for the stated goal."
+      ]
+    }
+  },
+  "prompt_profile_sha256": "b154c659d44c731e4299292cabe88c3996570c7cbe55e8cb1bf412816f0f742a",
+  "settings": {
+    "generation_model": "gpt-5.6-luna",
+    "cluster_model": "gpt-5.6-luna",
+    "generation_reasoning_effort": "none",
+    "cluster_reasoning_effort": "low",
+    "target_segment_chars": 450,
+    "max_segment_chars": 700,
+    "cluster_batch_size": 100,
+    "target_final_themes": null,
+    "max_cluster_iterations": 5,
+    "max_cluster_attempts": 3,
+    "max_generation_attempts": 3,
+    "max_batch_split_depth": 2,
+    "random_seed": 42,
+    "max_examples_per_theme": 10,
+    "max_usable_records": null
+  },
+  "git_revision": null
+}

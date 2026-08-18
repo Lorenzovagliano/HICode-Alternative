@@ -1,0 +1,17 @@
+.env
+
+/data/*
+!/data/clothing_reviews.csv
+
+/configs/prompt_profiles/*
+!/configs/prompt_profiles/template.json
+!/configs/prompt_profiles/clothing_reviews.json
+
+/output/runs/*
+!/output/runs/clothing_reviews
+!/output/runs/.gitkeep
+
+/.venv/
+/.pytest_cache/
+/src/hicode/__pycache__
+/tests/__pycache__

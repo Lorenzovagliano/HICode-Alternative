@@ -1,0 +1,19 @@
+{
+  "name": "clothing-review-customer-experience",
+  "background": "This corpus contains customer reviews of clothing products, including comments about garment fit, sizing, appearance, materials, construction, comfort, use, value, and the online shopping experience.",
+  "research_question": "What recurring customer experiences, product attributes, and sources of satisfaction or dissatisfaction shape how shoppers evaluate clothing purchases.",
+  "generation_instructions": [
+    "Label the input only when it is HIGHLY RELEVANT and USEFUL for the stated goal."
+  ],
+  "clustering_instructions": {
+    "level_1": [
+      "Synthesize similar inductively generated labels into meaningful and insightful themes for the stated goal."
+    ],
+    "intermediate": [
+      "Synthesize similar inductively generated labels into meaningful and insightful themes for the stated goal."
+    ],
+    "later": [
+      "Synthesize similar inductively generated labels into meaningful and insightful themes for the stated goal."
+    ]
+  }
+}

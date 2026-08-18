@@ -1,0 +1,22 @@
+[
+  {
+    "attempt_id": "07f694a08bdb436e8570be2ce03f456b",
+    "started_at": "2026-08-18T18:21:47.120456+00:00",
+    "mode": "new",
+    "generation_workers": 8,
+    "clustering_workers": 4,
+    "status": "failed",
+    "finished_at": "2026-08-18T18:23:07.917821+00:00",
+    "error_type": "RuntimeError",
+    "error": "clustering level 1 failed for 4 task(s); completed=0 unscheduled=16"
+  },
+  {
+    "attempt_id": "6301b650afe64c12bdf5f14db3b780bc",
+    "started_at": "2026-08-18T18:24:19.482728+00:00",
+    "mode": "resume",
+    "generation_workers": 8,
+    "clustering_workers": 4,
+    "status": "completed",
+    "finished_at": "2026-08-18T18:26:03.134006+00:00"
+  }
+]

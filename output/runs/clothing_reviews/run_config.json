@@ -1,0 +1,58 @@
+{
+  "generation_model": "gpt-5.6-luna",
+  "cluster_model": "gpt-5.6-luna",
+  "generation_reasoning_effort": "none",
+  "cluster_reasoning_effort": "low",
+  "coding_background": "This corpus contains customer reviews of clothing products, including comments about garment fit, sizing, appearance, materials, construction, comfort, use, value, and the online shopping experience.",
+  "coding_goal": "What recurring customer experiences, product attributes, and sources of satisfaction or dissatisfaction shape how shoppers evaluate clothing purchases.",
+  "prompt_profile_name": "clothing-review-customer-experience",
+  "prompt_profile": {
+    "name": "clothing-review-customer-experience",
+    "background": "This corpus contains customer reviews of clothing products, including comments about garment fit, sizing, appearance, materials, construction, comfort, use, value, and the online shopping experience.",
+    "research_question": "What recurring customer experiences, product attributes, and sources of satisfaction or dissatisfaction shape how shoppers evaluate clothing purchases.",
+    "generation_instructions": [
+      "Label the input only when it is HIGHLY RELEVANT and USEFUL for the stated goal."
+    ],
+    "clustering_instructions": {
+      "level_1": [
+        "Synthesize similar inductively generated labels into meaningful and insightful themes for the stated goal."
+      ],
+      "intermediate": [
+        "Synthesize similar inductively generated labels into meaningful and insightful themes for the stated goal."
+      ],
+      "later": [
+        "Synthesize similar inductively generated labels into meaningful and insightful themes for the stated goal."
+      ]
+    }
+  },
+  "generation_workers": 8,
+  "clustering_workers": 4,
+  "execution_attempt_id": "6301b650afe64c12bdf5f14db3b780bc",
+  "target_segment_chars": 450,
+  "max_segment_chars": 700,
+  "cluster_batch_size": 100,
+  "target_final_themes": null,
+  "max_cluster_iterations": 5,
+  "max_cluster_attempts": 3,
+  "max_generation_attempts": 3,
+  "max_batch_split_depth": 2,
+  "random_seed": 42,
+  "max_examples_per_theme": 10,
+  "max_usable_records": null,
+  "mode": "resume",
+  "text_column": "Review_Text",
+  "stop_reason": "max_cluster_iterations",
+  "counts": {
+    "input_records": 499,
+    "included_records": 480,
+    "excluded_records": 0,
+    "segments": 480,
+    "relevant_segments": 480,
+    "irrelevant_segments": 0,
+    "irrelevant_segment_percentage": 0.0,
+    "code_occurrences": 2300,
+    "unique_codes": 1966,
+    "cluster_iterations": 5,
+    "final_themes": 4
+  }
+}

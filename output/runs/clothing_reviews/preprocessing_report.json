@@ -1,0 +1,16 @@
+{
+  "source_rows_total": 499,
+  "source_rows_scanned": 499,
+  "text_column": "Review_Text",
+  "selected_records": null,
+  "max_usable_records": null,
+  "blank_records": 19,
+  "excluded_records": 0,
+  "cleaned_records": 480,
+  "total_generated_segments": 480,
+  "average_segment_length": 315.8,
+  "median_segment_length": 302.0,
+  "cleaning_reason_counts": {
+    "text_normalized": 68
+  }
+}

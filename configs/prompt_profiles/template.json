@@ -1,0 +1,19 @@
+{
+  "name": "template",
+  "background": "<ADD YOUR OWN: concise background information for the inductive coding task>",
+  "research_question": "<ADD YOUR OWN: goal of inductive coding>",
+  "generation_instructions": [
+    "Label the input only when it is HIGHLY RELEVANT and USEFUL for the stated goal."
+  ],
+  "clustering_instructions": {
+    "level_1": [
+      "Synthesize similar inductively generated labels into meaningful and insightful themes for the stated goal."
+    ],
+    "intermediate": [
+      "Synthesize similar inductively generated labels into meaningful and insightful themes for the stated goal."
+    ],
+    "later": [
+      "Synthesize similar inductively generated labels into meaningful and insightful themes for the stated goal."
+    ]
+  }
+}
